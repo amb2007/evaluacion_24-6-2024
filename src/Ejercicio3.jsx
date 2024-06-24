@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export default function Ejercicio3() {
+  const [ElementoLista, setElementoLista] = useState('')
   return (
     <div>
       <h2>Ejercicio 3: Modularización</h2>
